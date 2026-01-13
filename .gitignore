@@ -15,7 +15,7 @@ pip-wheel-metadata/
 venv/
 env/
 ENV/
-.env/
+src/.env/
 
 # ===============================
 # Packaging / Build
@@ -107,7 +107,7 @@ site/
 # ===============================
 # Environment / Secrets
 # ===============================
-.env
+src/.env
 .env.*
 *.key
 *.pem
