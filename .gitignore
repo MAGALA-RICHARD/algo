@@ -1,0 +1,113 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# ===============================
+# Packaging / Build
+# ===============================
+build/
+dist/
+wheelhouse/
+*.whl
+
+# ===============================
+# Jupyter / IPython
+# ===============================
+.ipynb_checkpoints/
+.profile_default/
+ipython_config.py
+
+# ===============================
+# Logs & Runtime Files
+# ===============================
+*.log
+*.out
+*.err
+*.pid
+
+# ===============================
+# APSIM / Simulation Outputs
+# ===============================
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.met~
+*.sum
+*.apsim~
+*.apsimx~
+/Simulations/**/Output/
+/Simulations/**/Logs/
+/Simulations/**/Results/
+
+# ===============================
+# Persisted Queues / Sessions
+# ===============================
+.queue/
+persistqueue/
+*.queue
+
+# ===============================
+# IDEs
+# ===============================
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# ===============================
+# OS Files
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===============================
+# Temporary / Scratch
+# ===============================
+tmp/
+temp/
+scratch/
+*.bak
+*.swp
+*.swo
+
+# ===============================
+# Coverage / Testing
+# ===============================
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.mypy_cache/
+
+# ===============================
+# Documentation builds
+# ===============================
+docs/_build/
+site/
+
+# ===============================
+# Environment / Secrets
+# ===============================
+.env
+.env.*
+*.key
+*.pem
